@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('assets/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    position: sticky;
+    font-size: large;
+}
+.logo{
+    display: inline-block;
+    position: absolute;
+    margin: 23px;
+    left: 24px;
+    background-image: url('assets/images/logo.jpg');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    text-align: right;
+}
+.navigation{
+    display: inline-block;
+    margin: auto;
+}
+.navigation ul{
+    display: flex;    
+}
+.navigation li{
+    list-style:none;
+    padding: 13px;
+}
+.navigation li a{
+   color: white;
+    text-decoration: none;
+}
+.navigation li a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.buttons{
+    display: inline-block;
+    padding: 13px;
+    position: absolute;
+    right: 34px;
+    top: 15px;
+}
+button{
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(138, 132, 132);
+}
+.container{
+    display: inline-block;
+    border: 2px solid white;
+    padding: 50px;
+    margin: 90px;
+    color:chartreuse;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.form-group input{
+    display: block;
+    font-size: large;
+    margin: 5px auto;
+    padding: 5px;
+    border: 2px solid black;
+    text-align: center;
+}
+.btn{
+    display: block;
+    margin: 5px auto;  
+}
+.btn:hover{
+    cursor: pointer;    
+}
